@@ -1,0 +1,26 @@
+body {
+    background: #204050;
+}
+
+.container{
+    position: relative;
+}
+  
+.circle {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: lightblue;
+    border-radius: 50%;
+    top:-5px;
+    left:-8px;
+}
+
+.path{
+    stroke: tomato;
+    stroke-width: 1px;
+}
+
+button{
+    border-radius: 40%;
+}
